@@ -1,8 +1,8 @@
 server:
   port: 8080
 greeting-service:
-  greeting: "Olá"
-  default-value: "Mundo"
+  greeting: "BR"
+  default-value: "DEMAIS"
 management:
   endpoints:
     web:
