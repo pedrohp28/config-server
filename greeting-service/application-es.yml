@@ -1,0 +1,13 @@
+server:
+  port: 8080
+greeting-service:
+  greeting: "Hola"
+  default-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
